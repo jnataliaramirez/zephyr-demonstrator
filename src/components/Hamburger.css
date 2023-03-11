@@ -1,13 +1,9 @@
 .hamburger {
-  position: relative;
-  width   : 20px;
-  height  : 20px;
-  z-index : 10;
-  cursor  : pointer;
-
-  /* transform: $ {
-    (props)=>props.open && 'rotate(180deg)'
-  }; */
+  position : relative;
+  width    : 20px;
+  height   : 20px;
+  z-index  : 10;
+  cursor   : pointer;
 }
 
 .hamburger::before,
@@ -19,27 +15,14 @@
   height          : 4px;
   border-radius   : 64px;
   background-color: rgb(13 148 136);
-
-  /* background-color: $ {
-    (props)=>props.open ? THEME.COLORS.SECONDARY: THEME.COLORS.PRIMARY
-  }; */
 }
 
 .hamburger::before {
-  top: 0; 
-
-  /* top                                  : 50%;
-  transform                            : translateY(-50%) rotate(45deg) */
-  /* top                               : ${(props) => (props.open ? '50%' : 0)};
-  ${(props) => props.open && `transform: translateY(-50%) rotate(45deg)`}; */
+  top: 0;
 }
 
 .hamburger::after {
   bottom: 0;
-  /* bottom                               : 50%;
-  transform                            : translateY(50%) rotate(-45deg) */
-  /* bottom                            : ${(props) => (props.open ? '50%' : 0)};
-  ${(props) => props.open && `transform: translateY(50%) rotate(-45deg)`}; */
 }
 
 .hamburger__line {
@@ -50,6 +33,18 @@
   height          : 4px;
   border-radius   : 64px;
   background-color: rgb(13 148 136);
+}
 
-  /* background-color: ${THEME.COLORS.PRIMARY}; */
+.active.hamburger::before {
+  top      : 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.active.hamburger::after {
+  bottom   : 50%;
+  transform: translateY(50%) rotate(-45deg);
+}
+
+.active.hamburger__line {
+  display: none;
 }
