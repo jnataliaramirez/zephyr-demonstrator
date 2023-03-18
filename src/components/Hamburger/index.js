@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import "../index.css";
-import "./Hamburger.css";
+import "../../index.css";
+import "./styles.css";
 
 const Hamburger = () => {
   const [open, setOpen] = useState(false);

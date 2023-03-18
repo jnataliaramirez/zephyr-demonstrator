@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'green-zephyr': 'rgb(38, 154, 156)',
+      },
+    },
     container: {
       center: true,
       padding: {
