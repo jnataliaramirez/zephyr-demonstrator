@@ -1,29 +1,28 @@
-import React from "react";
-import logo from "../../image/zephyr_logo_web.jpg";
 import SectionVideo from "./sectionVideo";
 
-const Case = () => {
+const Case = (props) => {
+  const info = props.data;
+
   return (
     <div>
-      <main className="flex flex-col gap-7 mt-8">
-        <h1 className="text-green-zephyr text-center uppercase text-xl font-bold">
-          title
+      <main className="flex flex-col gap-7 mt-8 lg:mt-16">
+        <h1 className="text-green-zephyr text-center uppercase text-3xl font-bold lg:text-4xl">
+          {info.title}
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          velit iste, totam eius explicabo nostrum, quas id, libero aspernatur
-          dicta placeat aperiam hic culpa repellat at eos quibusdam commodi
-          suscipit.
-        </p>
-        <img src={logo} alt="Zephir Logo" className="w-full" />
-        <SectionVideo
-          title="video 1"
-          src={"https://www.youtube.com/embed/cWDJoK8zw58"}
-        />
-        <SectionVideo
-          title="video 2"
-          src={"https://www.youtube.com/embed/cWDJoK8zw58"}
-        />
+        <div className="flex flex-col gap-4 md:flex-row md:gap-6 md:items-center">
+          <p className="text-center md:text-xl ">{info.text1}</p>
+          <div className="flex justify-center w-full ">
+            <img
+              src={`/images/${info.principalImageSrc}`}
+              alt="img"
+              className="w-80"
+            />
+          </div>
+        </div>
+        <div className="lg:flex lg:justify-around lg:gap-10">
+          <SectionVideo title={info.video1Title} src={info.video1Src} />
+          <SectionVideo title={info.video2Title} src={info.video2Src} />
+        </div>
       </main>
     </div>
   );

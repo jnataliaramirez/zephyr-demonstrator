@@ -1,7 +1,7 @@
 import React from "react";
-import "../index.css";
-import logo from "../image/zephyr_logo_web.jpg";
-import Hamburger from "./Hamburger";
+import "../../index.css";
+import logo from "../../image/zephyr_logo_web copy.jpg";
+import Hamburger from "../Hamburger/index"
 
 const Menu = () => {
   return (
@@ -14,4 +14,4 @@ const Menu = () => {
   );
 };
 
-export { Menu };
+export default Menu;
