@@ -5,7 +5,7 @@ const Case = (props) => {
 
   return (
     <div>
-      <main className="flex flex-col gap-7 mt-8 lg:mt-16">
+      <main className="flex flex-col gap-7 mt-8 lg:mt-12">
         <h1 className="text-green-zephyr text-center uppercase text-3xl font-bold lg:text-4xl">
           {info.title}
         </h1>
