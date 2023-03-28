@@ -4,7 +4,7 @@ const Cases = (props) => {
   const info = props.data;
 
   return (
-    <main className="flex flex-col gap-7 mt-8 lg:mt-12">
+    <div className="flex flex-col gap-7 mt-8 lg:mt-12">
       <h1 className="text-green-zephyr text-center uppercase text-3xl font-bold lg:text-4xl">
         {info.title}
       </h1>
@@ -22,7 +22,7 @@ const Cases = (props) => {
         <SectionVideo title={info.video1Title} src={info.video1Src} />
         <SectionVideo title={info.video2Title} src={info.video2Src} />
       </div>
-    </main>
+    </div>
   );
 };
 
