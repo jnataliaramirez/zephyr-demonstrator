@@ -1,8 +1,10 @@
 import "../index.css";
-import Case from "./Case";
+import Case from "./Cases";
 import Menu from "./Menu/index.js";
 import data from "../services/data.json";
 import Title from "./Title";
+import Subtitle from "./Subtitle";
+import Cards from "./Cards";
 
 function App() {
   return (
@@ -11,12 +13,13 @@ function App() {
 
       <div className="flex justify-around mt-4 lg:mt-8">
         <div>
-          <h2> Type one</h2>
+          <Subtitle> Type one </Subtitle>
+          <Cards></Cards>
         </div>
 
-        <div>
-          <h2> Type two</h2>
-        </div>
+        {/* <div>
+          <Subtitle> Type two </Subtitle>
+        </div> */}
       </div>
     </main>
   );

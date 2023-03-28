@@ -1,6 +1,6 @@
 import SectionVideo from "./sectionVideo";
 
-const Case = (props) => {
+const Cases = (props) => {
   const info = props.data;
 
   return (
@@ -28,4 +28,4 @@ const Case = (props) => {
   );
 };
 
-export default Case;
+export default Cases;

@@ -5,3 +5,8 @@
 * {
   font-family: 'Libre Franklin', sans-serif;
 }
+
+:root {
+  --color-primary: rgb(13 148 136);
+  --border-radius: 8px;
+}
