@@ -9,10 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <HashRouter>
-      <div className="container flex flex-col justify-between">
-        <Menu />
-        <App />
-      </div>
+      <App />
     </HashRouter>
   </React.StrictMode>
 );

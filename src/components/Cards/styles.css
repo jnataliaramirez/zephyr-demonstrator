@@ -60,5 +60,5 @@
 
 .card__content--button:hover {
   color           : black;
-  background-color: var(--color-primary);
+  opacity         : 0.7;
 }
