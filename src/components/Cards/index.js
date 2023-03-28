@@ -1,3 +1,4 @@
+import { Link} from "react-router-dom";
 import "../../index.css";
 import "./styles.css";
 
@@ -20,7 +21,7 @@ const Cards = () => {
           necessitatibus nihil facilis reiciendis nobis tenetur optio ipsam
           molestiae? Provident, explicabo?
         </p>
-        <a class="card__content--button">Go</a>
+        <Link to='/case_one' class="card__content--button">Go</Link>
       </div>
     </article>
   );

@@ -1,26 +1,19 @@
 import "../index.css";
-import Case from "./Cases";
-import Menu from "./Menu/index.js";
-import data from "../services/data.json";
 import Title from "./Title";
 import Subtitle from "./Subtitle";
 import Cards from "./Cards";
+import Cases from "./Cases";
+import { Link, Route, Routes } from "react-router-dom";
+import data from "../services/data.json";
+import Home from "./Home";
 
 function App() {
   return (
     <main className="flex flex-col gap-7 mt-8 lg:mt-12">
-      <Title> Principal Title </Title>
-
-      <div className="flex justify-around mt-4 lg:mt-8">
-        <div>
-          <Subtitle> Type one </Subtitle>
-          <Cards></Cards>
-        </div>
-
-        {/* <div>
-          <Subtitle> Type two </Subtitle>
-        </div> */}
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/case_one" element={<Cases data={data[1]} />} />
+      </Routes>
     </main>
   );
 }
