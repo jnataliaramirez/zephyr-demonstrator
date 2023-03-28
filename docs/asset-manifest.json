@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.a5330e6d.css",
-    "main.js": "./static/js/main.02f6a591.js",
+    "main.css": "./static/css/main.2d8f7c15.css",
+    "main.js": "./static/js/main.0144ec2f.js",
     "static/media/zephyr_logo_web copy.jpg": "./static/media/zephyr_logo_web copy.cd4500a9b8033a6d5b32.jpg",
     "index.html": "./index.html",
-    "main.a5330e6d.css.map": "./static/css/main.a5330e6d.css.map",
-    "main.02f6a591.js.map": "./static/js/main.02f6a591.js.map"
+    "main.2d8f7c15.css.map": "./static/css/main.2d8f7c15.css.map",
+    "main.0144ec2f.js.map": "./static/js/main.0144ec2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5330e6d.css",
-    "static/js/main.02f6a591.js"
+    "static/css/main.2d8f7c15.css",
+    "static/js/main.0144ec2f.js"
   ]
 }
