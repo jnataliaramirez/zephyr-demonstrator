@@ -13,7 +13,7 @@ const Case = (props) => {
           <p className="text-center md:text-xl ">{info.text1}</p>
           <div className="flex justify-center w-full ">
             <img
-              src={`/images/${info.principalImageSrc}`}
+              src={`./images/${info.principalImageSrc}`}
               alt="img"
               className="w-80"
             />
