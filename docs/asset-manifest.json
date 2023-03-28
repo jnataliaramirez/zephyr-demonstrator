@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7dfd9468.css",
+    "main.js": "./static/js/main.e3ca4108.js",
+    "static/media/zephyr_logo_web copy.jpg": "./static/media/zephyr_logo_web copy.cd4500a9b8033a6d5b32.jpg",
+    "index.html": "./index.html",
+    "main.7dfd9468.css.map": "./static/css/main.7dfd9468.css.map",
+    "main.e3ca4108.js.map": "./static/js/main.e3ca4108.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dfd9468.css",
+    "static/js/main.e3ca4108.js"
+  ]
+}
