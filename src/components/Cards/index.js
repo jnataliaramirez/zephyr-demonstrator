@@ -1,8 +1,11 @@
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../index.css";
 import "./styles.css";
+import { click } from "@testing-library/user-event/dist/click";
 
 const Cards = (props) => {
+  const info = props.info;
+
   return (
     <article class="card">
       <div class="card__image">
@@ -14,14 +17,13 @@ const Cards = (props) => {
       </div>
 
       <div class="card__content">
-        <h4 class="card__content--title">Case One</h4>
+        <h4 class="card__content--title">{info.title}</h4>
         <p class="card__content--description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-          culpa, adipisci nam maiores dolor eos pariatur error nulla eligendi
-          necessitatibus nihil facilis reiciendis nobis tenetur optio ipsam
-          molestiae? Provident, explicabo?
+          {info.text1}
         </p>
-        <Link to='/case/1' class="card__content--button">Go</Link>
+        <Link to={`/case/${info.id}`} class="card__content--button">
+          Go
+        </Link>
       </div>
     </article>
   );
