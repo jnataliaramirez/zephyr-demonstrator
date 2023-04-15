@@ -2,7 +2,7 @@ import { Link} from "react-router-dom";
 import "../../index.css";
 import "./styles.css";
 
-const Cards = () => {
+const Cards = (props) => {
   return (
     <article class="card">
       <div class="card__image">
@@ -21,7 +21,7 @@ const Cards = () => {
           necessitatibus nihil facilis reiciendis nobis tenetur optio ipsam
           molestiae? Provident, explicabo?
         </p>
-        <Link to='/case_one' class="card__content--button">Go</Link>
+        <Link to='/case/1' class="card__content--button">Go</Link>
       </div>
     </article>
   );

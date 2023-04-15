@@ -9,14 +9,14 @@ function Home() {
       <Title> Principal Title </Title>
       <div className="flex flex-col justify-center  md:flex-row md:justify-around mt-4 lg:mt-8">
         <div className="">
-          <Subtitle> Type one </Subtitle>
+          <Subtitle> Type Rural </Subtitle>
           <div className="flex flex-col items-center ">
-            <Cards></Cards>
+
             <Cards></Cards>
           </div>
         </div>
         <div className="mt-8 md:mt-0">
-          <Subtitle> Type two </Subtitle>
+          <Subtitle> Type Urban</Subtitle>
           <div className="flex flex-col items-center ">
             <Cards></Cards>
           </div>

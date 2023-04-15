@@ -1,7 +1,6 @@
 import "../index.css";
 import Cases from "./Cases";
-import { Route, Routes } from "react-router-dom";
-import data from "../services/data.json";
+import { Route, Routes, useParams } from "react-router-dom";
 import Home from "./Home";
 import Menu from "./Menu";
 
@@ -12,7 +11,7 @@ function App() {
       <main className="flex flex-col gap-7 mt-4"></main>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/case_one" element={<Cases data={data[0]} />} />
+        <Route path="/case/:caseId" element={<Cases />}></Route>
       </Routes>
     </div>
   );
