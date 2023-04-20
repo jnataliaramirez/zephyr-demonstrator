@@ -1,19 +1,18 @@
-import "../index.css";
+import data from "../services/data.json";
 import Title from "./Title";
 import Subtitle from "./Subtitle";
-import Cards from "./Cards";
-import data from "../services/data.json";
+import Card from "./Card";
 
 function Home() {
   const ruralList = data
     .filter((item) => item.type === "rural")
     .map((item) => {
-      return <Cards info={item}></Cards>;
+      return <Card info={item}></Card>;
     });
   const urbanList = data
     .filter((item) => item.type === "urban")
     .map((item) => {
-      return <Cards info={item}></Cards>;
+      return <Card info={item}></Card>;
     });
 
   return (

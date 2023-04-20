@@ -1,6 +1,6 @@
 import React from "react";
 import "../../index.css";
-import logo from "../../image/zephyr_logo_web copy.jpg";
+import logo from "../../image/zephyr_logo_web.jpg";
 import Hamburger from "../Hamburger/index";
 import { Link } from "react-router-dom";
 

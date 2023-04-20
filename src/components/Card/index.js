@@ -1,10 +1,8 @@
-import { Link } from "react-router-dom";
+import Button from "../Button";
 import "../../index.css";
 import "./styles.css";
-import { click } from "@testing-library/user-event/dist/click";
-import Button from "../Button";
 
-const Cards = (props) => {
+const Card = (props) => {
   const info = props.info;
 
   return (
@@ -27,4 +25,4 @@ const Cards = (props) => {
   );
 };
 
-export default Cards;
+export default Card;
