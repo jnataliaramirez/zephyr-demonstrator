@@ -15,11 +15,11 @@ const Case = () => {
       </h1>
       <div className="flex flex-col gap-4 md:flex-row md:gap-6 md:items-center">
         <p className="text-center md:text-xl ">{routeInfo.text1}</p>
-        <div className="flex justify-center w-full ">
+        <div className="flex justify-center w-full">
           <img
             src={`./images/${routeInfo.principalImageSrc}`}
             alt="img"
-            className="w-80"
+            className="w-80 rounded-lg"
           />
         </div>
       </div>
