@@ -35,17 +35,3 @@
   border-radius   : 64px;
   background-color: rgb(13 148 136);
 }
-
-.active.hamburger::before {
-  top      : 50%;
-  transform: translateY(-50%) rotate(45deg);
-}
-
-.active.hamburger::after {
-  bottom   : 50%;
-  transform: translateY(50%) rotate(-45deg);
-}
-
-.active.hamburger__line {
-  display: none;
-}
