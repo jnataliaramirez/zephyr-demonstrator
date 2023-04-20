@@ -1,6 +1,6 @@
 import React from "react";
 
-const SectionVideo = (props) => {
+const Video = (props) => {
   return (
     <div className="mt-3 flex flex-col gap-5 md:mt-14 lg:w-1/2">
       <h3 className="text-green-zephyr text-center uppercase text-xl font-bold md:text-2xl">
@@ -13,4 +13,4 @@ const SectionVideo = (props) => {
   );
 };
 
-export default SectionVideo;
+export default Video;

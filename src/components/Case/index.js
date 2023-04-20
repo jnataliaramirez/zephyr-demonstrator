@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import SectionVideo from "./sectionVideo";
+import Video from "../Video";
 import data from "../../services/data.json";
 import Button from "../Button";
 
-const Cases = () => {
+const Case = () => {
   const { caseId } = useParams();
 
   const routeInfo = data.find((item) => item.id === caseId);
@@ -24,8 +24,8 @@ const Cases = () => {
         </div>
       </div>
       <div className="lg:flex lg:justify-around lg:gap-10">
-        <SectionVideo title={routeInfo.video1Title} src={routeInfo.video1Src} />
-        <SectionVideo title={routeInfo.video2Title} src={routeInfo.video2Src} />
+        <Video title={routeInfo.video1Title} src={routeInfo.video1Src} />
+        <Video title={routeInfo.video2Title} src={routeInfo.video2Src} />
       </div>
 
       <div className="flex justify-center mt-6">
@@ -37,4 +37,4 @@ const Cases = () => {
   );
 };
 
-export default Cases;
+export default Case;
