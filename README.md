@@ -7,7 +7,7 @@ This is a demo project showcasing the use of React, React Router, and Tailwind C
 To install this project, simply clone the repository and run npm install in the project directory to install the necessary dependencies.
 
 ```shell
-git clone https://github.com/yourusername/zephyr-demonstrator.git
+git clone https://github.com/jnataliaramirez/zephyr-demonstrator.git
 cd zephyr-demonstrator
 npm install
 ```
