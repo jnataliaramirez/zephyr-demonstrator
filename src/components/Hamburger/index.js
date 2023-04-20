@@ -3,7 +3,6 @@ import "../../index.css";
 import "./styles.css";
 
 const Hamburger = () => {
-
   return (
     <Link to="/">
       <div className="hamburger">

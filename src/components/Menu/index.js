@@ -1,8 +1,7 @@
-import React from "react";
-import "../../index.css";
-import logo from "../../image/zephyr_logo_web.jpg";
-import Hamburger from "../Hamburger/index";
 import { Link } from "react-router-dom";
+import Hamburger from "../Hamburger/index";
+import logo from "../../image/zephyr_logo_web.jpg";
+import "../../index.css";
 
 const Menu = () => {
   return (
