@@ -17,7 +17,7 @@ function Home() {
     });
 
   return (
-    <div className="flex flex-col gap-7 mt-8 lg:mt-12">
+    <div className="flex flex-col gap-7 mt-8 lg:my-12">
       <Title> Principal Title </Title>
       <div className="flex flex-col justify-center  md:flex-row md:justify-around mt-4 lg:mt-8">
         <div className="">

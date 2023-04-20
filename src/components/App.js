@@ -3,6 +3,7 @@ import Cases from "./Cases";
 import { Route, Routes, useParams } from "react-router-dom";
 import Home from "./Home";
 import Menu from "./Menu";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/case/:caseId" element={<Cases />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

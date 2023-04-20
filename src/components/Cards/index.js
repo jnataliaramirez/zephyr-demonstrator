@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "../../index.css";
 import "./styles.css";
 import { click } from "@testing-library/user-event/dist/click";
+import Button from "../Button";
 
 const Cards = (props) => {
   const info = props.info;
@@ -18,12 +19,9 @@ const Cards = (props) => {
 
       <div class="card__content">
         <h4 class="card__content--title">{info.title}</h4>
-        <p class="card__content--description">
-          {info.text1}
-        </p>
-        <Link to={`/case/${info.id}`} class="card__content--button">
-          Go
-        </Link>
+        <p class="card__content--description">{info.text1}</p>
+
+        <Button link={`/case/${info.id}`}>Go</Button>
       </div>
     </article>
   );
