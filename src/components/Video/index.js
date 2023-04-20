@@ -1,5 +1,3 @@
-import React from "react";
-
 const Video = (props) => {
   return (
     <div className="mt-3 flex flex-col gap-5 md:mt-14 lg:w-1/2">
