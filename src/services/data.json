@@ -1,46 +1,45 @@
 [
   {
     "id": "1",
-    "title": "case 1",
+    "title": "Flat terrain",
     "type": "rural",
-    "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit iste, totam eius explicabo nostrum, quas id, libero aspernatur dicta placeat aperiam hic culpa repellat at eos quibusdam commodi suscipit.",
-    "principalImageSrc": "imageCase1.jpg",
-    "video1Title": "video 1",
-    "video1Src": "https://www.youtube.com/embed/1w7OgIMMRc4",
-    "video2Title": "video 2",
-    "video2Src": "https://www.youtube.com/embed/OX-us7PEfkc"
+    "text1": "The wind turbine is placed in an open and flat terrain, such that the incoming wind is uniform with very low turbulence. In this scenario, the noise produced by the wind turbine is the minimum. In the videos you can see the detailed wind turbine geometry, and hear the noise as if you were standing 150 meters from the base of the turbine. Can you identify the difference in the noise emited by the wind turbine because of the inflow turbulence?",
+    "principalImageSrc": "wind_turbine_flat.jpg",
+    "video1Title": "Wind Turbine Geometry",
+    "video1Src": "https://www.youtube.com/embed/EpiX_XWfR84",
+    "video2Title": "Noise",
+    "video2Src": "https://www.youtube.com/embed/2faS7j5TXac"
   },
   {
     "id": "2",
-    "title": "case2",
-    "type": "urban",
-    "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit iste, totam eius explicabo nostrum, quas id, libero aspernatur dicta placeat aperiam hic culpa repellat at eos quibusdam commodi suscipit.",
-    "principalImageSrc": "imageCase1.jpg",
-    "video1Title": "video 1",
-    "video1Src": "https://www.youtube.com/embed/1w7OgIMMRc4",
-    "video2Title": "video 2",
-    "video2Src": "https://www.youtube.com/embed/OX-us7PEfkc"
+    "title": "case 1",
+    "type": "rural",
+    "text1": "The wind turbine is placed in a complex terrain surronded by mountains and forests that make the incoming wind more turbulent. In this scenario, the noise produced by the wind turbine is louder. Real measurements can be done to characterize the flow using met masts. Also, the conditions can be simulated to consider them in the performance of the wind turbine. In one video you can see atmospheric simulations of this kind of terrains. In the other one, you can hear the noise as you would be at the same position of the flat terrain case. Can you identify the difference in the noise emited by the wind turbine because of the inflow turbulence?",
+    "principalImageSrc": "wind_turbine_complex.jpg",
+    "video1Title": "Noise",
+    "video1Src": "https://www.youtube.com/embed/PhCoj4poI58",
+    "video2Title": "Atmospheric simulations",
+    "video2Src": "https://www.youtube.com/embed/PhCoj4poI58"
   },
   {
     "id": "3",
-    "title": "case3",
-    "type": "urban",
-    "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit iste, totam eius explicabo nostrum, quas id, libero aspernatur dicta placeat aperiam hic culpa repellat at eos quibusdam commodi suscipit.",
-    "principalImageSrc": "imageCase1.jpg",
-    "video1Title": "video 1",
-    "video1Src": "https://www.youtube.com/embed/1w7OgIMMRc4",
-    "video2Title": "video 2",
-    "video2Src": "https://www.youtube.com/embed/OX-us7PEfkc"
+    "title": "Structural",
+    "type": "rural",
+    "text1": "A wind turbine operating under high turbulence in a complex terrain environment experiences high loads on the rotor causing large deflections on the blades. Large blade deflections affect the performance of the wind turbine and reduce the lifetime of its structure needing periodic maintenance and downtimes. Being able to accurately predict the effect of the wind loading on the blade deflections helps optimize the maintenance of the wind turbine structural components reducing downtimes and maximizing the energy production from the turbine.",
+    "principalImageSrc": "wt_deflected.png",
+    "video1Title": "Wind Turbine",
+    "video1Src": "https://www.youtube.com/embed/M2DHMOBBv8Y",
+    "video2Title": "Results from simulations",
+    "video2Src": "https://www.youtube.com/embed/eLavWpntJSY"
   },
   {
     "id": "4",
-    "title": "case 4",
-    "type": "rural",
-    "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit iste, totam eius explicabo nostrum, quas id, libero aspernatur dicta placeat aperiam hic culpa repellat at eos quibusdam commodi suscipit.",
-    "principalImageSrc": "imageCase1.jpg",
-    "video1Title": "video 1",
-    "video1Src": "https://www.youtube.com/embed/1w7OgIMMRc4",
-    "video2Title": "video 2",
-    "video2Src": "https://www.youtube.com/embed/OX-us7PEfkc"
+    "title": "Vertical axis wind turbines for building rooftops",
+    "type": "urban",
+    "text1": "Smart and sustainable city programs across the world have renewed the interest in decentralized electricity generation and sustainable building design. Small wind turbines in urban environments, more specifically Darrieus vertical axis wind turbines (VAWT) are well suited for urban areas such as building rooftops. They operate independently of incoming wind direction without the need for an additional yawing mechanism. Moreover, studies have shown that they perform better in highly turbulent wind conditions encountered in a typical urban environment. In this project different types of Darrieus wind turbines were studied: Horizontal-Darrieus, Helical Darrieus and the Classical Darrieus architectures. Each architecture has its own advantages and disadvantages. These turbines can be seen on top of the two houses in the urban part of the demonstrator. Helical Darrieus and Horizontal-Darrieus turbines can be seen in the videos. Further developments on this study can be found at https://www.researchgate.net/profile/Kartik-Venkatraman-5",
+    "principalImageSrc": "wt_urban_roof.jpg",
+    "video1Title": "Simulation results",
+    "video1Src": "https://www.youtube.com/embed/GvwFd2MfmUg"
+
   }
 ]

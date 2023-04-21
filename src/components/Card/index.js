@@ -6,18 +6,17 @@ const Card = (props) => {
   const info = props.info;
 
   return (
-    <article class="card">
-      <div class="card__image">
+    <article className="card">
+      <div className="card__image">
         <img
-          src="./images/imageCase1.jpg"
+          src={`./images/${info.principalImageSrc}`}
           alt="Zephyr"
-          class="card__image--img"
+          className="card__image--img"
         />
       </div>
 
-      <div class="card__content">
-        <h4 class="card__content--title">{info.title}</h4>
-        <p class="card__content--description">{info.text1}</p>
+      <div className="card__content">
+        <h4 className="card__content--title">{info.title}</h4>
 
         <Button link={`/case/${info.id}`}>Go</Button>
       </div>

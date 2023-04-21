@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "title": "case 1",
+    "type": "rural",
+    "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit iste, totam eius explicabo nostrum, quas id, libero aspernatur dicta placeat aperiam hic culpa repellat at eos quibusdam commodi suscipit.",
+    "principalImageSrc": "imageCase1.jpg",
+    "video1Title": "video 1",
+    "video1Src": "https://www.youtube.com/embed/1w7OgIMMRc4",
+    "video2Title": "video 2",
+    "video2Src": "https://www.youtube.com/embed/OX-us7PEfkc"
+  },
+  {
+    "id": "2",
+    "title": "case2",
+    "type": "urban",
+    "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit iste, totam eius explicabo nostrum, quas id, libero aspernatur dicta placeat aperiam hic culpa repellat at eos quibusdam commodi suscipit.",
+    "principalImageSrc": "imageCase1.jpg",
+    "video1Title": "video 1",
+    "video1Src": "https://www.youtube.com/embed/1w7OgIMMRc4",
+    "video2Title": "video 2",
+    "video2Src": "https://www.youtube.com/embed/OX-us7PEfkc"
+  },
+  {
+    "id": "3",
+    "title": "case3",
+    "type": "urban",
+    "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit iste, totam eius explicabo nostrum, quas id, libero aspernatur dicta placeat aperiam hic culpa repellat at eos quibusdam commodi suscipit.",
+    "principalImageSrc": "imageCase1.jpg",
+    "video1Title": "video 1",
+    "video1Src": "https://www.youtube.com/embed/1w7OgIMMRc4",
+    "video2Title": "video 2",
+    "video2Src": "https://www.youtube.com/embed/OX-us7PEfkc"
+  },
+  {
+    "id": "4",
+    "title": "case 4",
+    "type": "rural",
+    "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit iste, totam eius explicabo nostrum, quas id, libero aspernatur dicta placeat aperiam hic culpa repellat at eos quibusdam commodi suscipit.",
+    "principalImageSrc": "imageCase1.jpg",
+    "video1Title": "video 1",
+    "video1Src": "https://www.youtube.com/embed/1w7OgIMMRc4",
+    "video2Title": "video 2",
+    "video2Src": "https://www.youtube.com/embed/OX-us7PEfkc"
+  }
+]

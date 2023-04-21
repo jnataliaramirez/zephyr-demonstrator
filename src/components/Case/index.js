@@ -13,13 +13,13 @@ const Case = () => {
       <h1 className="text-green-zephyr text-center uppercase text-3xl font-bold lg:text-4xl">
         {routeInfo.title}
       </h1>
-      <div className="flex flex-col gap-4 md:flex-row md:gap-6 md:items-center">
-        <p className="text-center md:text-xl ">{routeInfo.text1}</p>
-        <div className="flex justify-center w-full">
+      <div className="flex flex-col gap-4 md:flex-row md:justify-between md:gap-6 md:items-center">
+        <p className="text-left md:w-3/5 md:text-xl ">{routeInfo.text1}</p>
+        <div className="flex justify-center w-full h-80 md:w-2/5">
           <img
             src={`./images/${routeInfo.principalImageSrc}`}
             alt="img"
-            className="w-80 rounded-lg"
+            className="rounded-lg"
           />
         </div>
       </div>
