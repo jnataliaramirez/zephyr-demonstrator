@@ -5,7 +5,11 @@ const Video = (props) => {
         {props.title}
       </h3>
       <div className="flex justify-center">
-        <iframe className="w-full rounded-lg  md:h-80" src={props.src}></iframe>
+        <iframe
+          className="w-full rounded-lg md:h-80"
+          title={`${props.title} video`}
+          src={props.src}
+        ></iframe>
       </div>
     </div>
   );
